@@ -1,1 +1,1 @@
-# deepsnp
+# DeepSNP
