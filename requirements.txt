@@ -1,0 +1,10 @@
+sklearn
+numpy
+h5py
+keras
+tensorflow-gpu
+librosa
+matplotlib
+seaborn
+pandas
+tqdm
