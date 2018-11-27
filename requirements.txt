@@ -1,8 +1,8 @@
 sklearn
 numpy
 h5py
-keras
-tensorflow-gpu
+keras==2.2.2
+tensorflow-gpu==1.9.0
 librosa
 matplotlib
 seaborn
