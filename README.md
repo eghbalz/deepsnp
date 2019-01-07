@@ -6,7 +6,7 @@ This repository contains the code for the paper
 <br>
 [Hamid Eghbal-zadeh](https://www.jku.at/en/institute-of-computational-perception/about-us/people/hamid-eghbal-zadeh/), [Lukas Fischer](https://www.scch.at/en/team/person_id/207), [Niko Popitsch](http://science.ccri.at/contact-us/contact-details/), [Florian Kromp](http://science.ccri.at/contact-us/contact-details/), [Sabine Taschner-Mandl](http://science.ccri.at/contact-us/contact-details/), [Teresa Gerber](http://science.ccri.at/contact-us/contact-details/), [Eva Bozsaky](http://science.ccri.at/contact-us/contact-details/), [Peter F. Ambros](http://science.ccri.at/contact-us/contact-details/), [Inge M. Ambros](http://science.ccri.at/contact-us/contact-details/), [Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/), [Bernhard A. Moser](https://www.scch.at/en/team/person_id/90)
 
-To be published in [JCB](https://home.liebertpub.com/publications/journal-of-computational-biology/31/overview)
+Published in [JCB](https://www.liebertpub.com/doi/abs/10.1089/cmb.2018.0172)
 
 ## Citing DeepSNP
 
