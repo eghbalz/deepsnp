@@ -14,16 +14,17 @@ If you use DeepSNP in your research, please cite the following BibTeX entry:
 
 ```
 @article{eghbal2018deepsnp,
-    author={Eghbal-zadeh, Hamid and Fischer, Lukas and Popitsch, Niko and Kromp, Florian and Taschner-Mandl, Sabine and Gerber, Teresa and Bozsaky, Eva and Ambros, Peter and Ambros, Inge and Widmer, Gerhard and Moser, Bernhard},
+    author={Eghbal-Zadeh, Hamid and Fischer, Lukas and Popitsch, Niko and Kromp, Florian and Taschner-Mandl, Sabine and Gerber, Teresa and Bozsaky, Eva and Ambros, Peter F. and Ambros, Inge M. and Widmer, Gerhard and Moser, Bernhard A.},
     title={DeepSNP: An End-to-End Deep Neural Network with Attention-Based Localization for Breakpoint Detection in Single-Nucleotide Polymorphism Array Genomic Data},
     journal = {Journal of Computational Biology},
     volume = {},
     number = {},
     pages = {},
     year = {2019},
-    doi = {},
-    note ={PMID: },
-    URL = {https://doi.org/}
+    doi = {10.1089/cmb.2018.0172},
+    note ={PMID: 30585743},
+    URL = {https://doi.org/10.1089/cmb.2018.0172},
+    eprint = {https://doi.org/10.1089/cmb.2018.0172}
 }
 ```
 
