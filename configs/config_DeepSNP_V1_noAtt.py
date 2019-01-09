@@ -18,20 +18,19 @@ from configs.config import ConfigFlags
 
 
 def load_config():
-    config = ConfigFlags().return_flags()
+    config = ConfigFlags()
 
     # Directories
-    config.data_dir = r'S:\Project_Stuff\VISIOMICS\Data\Genomicdata_26072018_samples50'
-    # config.save_dir = r'E:\Projects\VISIOMICS\trunk\BioInf\DeepSNP\results'
-    # config.model_dir = r'E:\Projects\VISIOMICS\trunk\BioInf\DeepSNP\models'
-    # config.model_dir = r'S:\Project_Stuff\VISIOMICS\DeepSNP\models'
-    # config.log_dir = r'E:\Projects\VISIOMICS\trunk\BioInf\DeepSNP\logs'
+    config.data_dir =       r'/path/to/your/data'
+    # config.save_dir =     r'/path/to/results'
+    # config.model_dir =    r'/path/to/models'
+    # config.log_dir =      r'/path/to/logs'
 
     # Model to train
-    config.model_name = 'DeepSNP_V1'
+    config.model_name =     'DeepSNP_V1'
 
     # Data generation parameters
-    config.jitter = True
+    config.jitter =         True
 
     # Training parameters
     # all default
@@ -41,5 +40,6 @@ def load_config():
 
     # Evaluation parameters
     # only used for evaluation
+    config.gen_loc_output = True
 
     return config
