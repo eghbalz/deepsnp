@@ -18,16 +18,16 @@ from configs.config import ConfigFlags
 
 
 def load_config():
-    config = ConfigFlags().return_flags()
+    config = ConfigFlags()
 
     # Directories
-    config.data_dir = r'S:\Project_Stuff\VISIOMICS\Data\Genomicdata_26072018_samples50'
+    config.data_dir =   r'/path/to/raw_data'
 
     # Model to train
-    config.model_name = 'DeepSNP_V1'
+    config.model_name = 'process_raw_data'
 
     # Data generation parameters
-    config.jitter = True
+    config.jitter =     True
 
     # Training parameters
     # all default
