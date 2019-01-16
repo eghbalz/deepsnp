@@ -194,6 +194,7 @@ class RawDataRunner(NetRunner):
                         feat_pos, rawcop_pred_pos, label_pos = feature_extraction_jitter(b_ind, labels, baf_c, lrr_c,
                                                                                          rawcopy_predictions,
                                                                                          data.shape, margin=margin)
+                        ix_pos = None
                         if feat_pos is None:
                             file_error.append(f)
                             continue
@@ -206,7 +207,7 @@ class RawDataRunner(NetRunner):
                     rawcopy_preds.append(rawcop_pred_pos)
                     bp_indices.append([b_ind])
 
-                    if self.plot_data_gen:
+                    if self.plot_data_gen and ix_pos:
                         plot_lrr_baf(data, ix_pos, data_type_names, feat_pos,
                                      'positive BAF - LRR, label: ' + str(label_pos))
 
