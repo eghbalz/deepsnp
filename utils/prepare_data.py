@@ -256,8 +256,9 @@ def plot_lrr_baf(data, ix, data_type_names, feat=None, title=None, save_file=Non
     :return:
     """
     plt.close('all')
+    data_keys = list(data._series.keys())
     for data_type_ix in [2, 3, 4]:
-        dmy = np.array(data._series[data_type_ix])[ix]
+        dmy = np.array(data._series[data_keys[data_type_ix]])[ix]
         plt.subplot(2, 2, data_type_ix - 1)
         plt.grid(False)
         plt.title(data_type_names[data_type_ix])
@@ -266,8 +267,9 @@ def plot_lrr_baf(data, ix, data_type_names, feat=None, title=None, save_file=Non
         plt.subplot(2, 2, 4)
         plt.grid(False)
         plt.imshow(feat, aspect='auto', cmap='viridis')
+        plt.title('Combined BAF and LRR feature')
     if title is not None:
-        plt.title(title)
+        plt.suptitle(title)
     if save_file is not None:
         if not os.path.exists(os.path.dirname(save_file)):
             os.mkdir(os.path.dirname(save_file))
