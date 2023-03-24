@@ -2,7 +2,7 @@ sklearn
 numpy
 h5py
 keras==2.2.2
-tensorflow-gpu==1.9.0
+tensorflow-gpu==2.12.0
 librosa
 matplotlib
 seaborn
